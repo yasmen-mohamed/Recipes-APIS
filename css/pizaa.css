@@ -1,0 +1,105 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family:"Poppins-SemiBold, Poppins";
+}
+.color-mine
+{
+    color:#ff7d5f !important;
+}
+/*Start Navbar*/
+#min-nav
+{
+    z-index: 3;
+}
+.navbar-dark .navbar-brand
+{
+    color: #fff !important;
+  
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #fff !important;
+    font-size: 1.4rem !important;
+    font-weight: 400 !important;
+    border-radius: 50% !important;
+    transition: all 0.5s;
+}
+#min-nav
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    background-color: #ff7d5f !important;
+}
+@media only screen and (max-width: 600px) {
+    .navbar-dark .navbar-nav .nav-link {
+      border-radius: 0 !important;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .navbar-dark .navbar-nav .nav-link:hover {
+      color: #ff7d5f !important;
+      background-color: transparent !important;
+    }
+  }  
+/*End Navbar*/
+
+/*start header*/
+#home
+{
+    background-image: url(../images/pizza-header1.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+/*End Header*/
+
+#recipesSearch
+{
+    background: #faf3f1 url(../images/1.png);
+}
+.recipy
+{
+    cursor: pointer;
+}
+.recipy img
+{
+    height: 200px !important;
+    transition: all 1s;
+}
+.recipeScal :hover img
+{
+    transform: scale(1.3,1.3);
+}
+.category
+{
+    background-image: url(../images/category-bg.png);
+    background-size: cover;
+    background-position: center center;
+}
+#recipesSearch p
+{
+    color: #7a7474;
+}
+
+#footer
+{
+    height: 10vh;
+    background-color: #ff7d5f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
